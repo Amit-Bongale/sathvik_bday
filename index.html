@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sathvik Turns 5</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Outfit", sans-serif;
+        background: #faf6f1;
+        overflow-x: hidden;
+      }
+
+      .title {
+        font-family: "Cormorant Garamond", serif;
+      }
+
+      .gold {
+        color: #b68b57;
+      }
+
+      .glass {
+        background: rgba(255, 255, 255, 0.65);
+        backdrop-filter: blur(20px);
+      }
+
+      .hero-bg {
+        background:
+          linear-gradient(
+            to bottom,
+            rgba(250, 246, 241, 0.35),
+            rgba(250, 246, 241, 1)
+          ),
+          url("https://www.transparenttextures.com/patterns/cubes.png");
+      }
+
+      .shadow-soft {
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+      }
+
+      .hero-image {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      .shimmer {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          120deg,
+          transparent 30%,
+          rgba(255, 255, 255, 0.5),
+          transparent 70%
+        );
+        transform: translateX(-100%);
+        animation: shine 6s infinite;
+      }
+
+      @keyframes shine {
+        100% {
+          transform: translateX(250%);
+        }
+      }
+    </style>
+  </head>
+
+  <body class="hero-bg">
+    <!-- Navigation -->
+
+    <header class="fixed top-0 w-full z-50">
+      <div class="backdrop-blur-xl bg-white/60 border-b border-white/40">
+        <div class="max-w-6xl mx-auto px-5">
+          <div class="flex justify-between items-center h-16">
+            <div class="title text-3xl tracking-wide gold font-semibold">
+              SATHVIK
+            </div>
+
+            <a
+              href="#venue"
+              class="bg-[#d8b48b] hover:bg-[#c89b6f] text-white px-5 py-2 rounded-full duration-300"
+            >
+              Venue
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+
+    <section
+      class="min-h-screen flex items-center justify-center px-6 pt-24 pb-20 relative overflow-hidden"
+    >
+      <!-- circles -->
+
+      <div
+        class="absolute -top-20 -left-20 w-72 h-72 rounded-full bg-[#ead5bc]/40 blur-3xl"
+      ></div>
+
+      <div
+        class="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-[#ffe8d1]/40 blur-3xl"
+      ></div>
+
+      <div class="max-w-6xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <!-- Left -->
+
+          <div class="text-center lg:text-left">
+            <p class="uppercase tracking-[8px] text-sm gold mb-5">
+              Birthday Celebration
+            </p>
+
+            <h1
+              class="title text-6xl md:text-8xl font-semibold leading-none text-[#54463d]"
+            >
+              SATHVIK
+            </h1>
+
+            <h2 class="title text-4xl mt-4 gold">Chapter 5</h2>
+
+            <div class="w-28 h-[2px] bg-[#d4b08b] mx-auto lg:mx-0 my-8"></div>
+
+            <p class="text-lg leading-9 text-gray-600 max-w-xl">
+              Our Little Prince is Turning 5. Celebrate this magical milestone
+              with us as our beloved son steps into another wonderful chapter
+              filled with laughter, dreams and happiness.
+            </p>
+
+            <div
+              class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+            >
+              <a
+                href="#invitation"
+                class="px-8 py-4 rounded-full bg-[#d5aa7b] text-white font-medium hover:scale-105 duration-300 shadow-lg"
+              >
+                View Invitation
+              </a>
+
+              <a
+                href="#venue"
+                class="px-8 py-4 rounded-full border border-[#d5aa7b] text-[#b8844d] hover:bg-[#d5aa7b] hover:text-white duration-300"
+              >
+                Venue
+              </a>
+            </div>
+          </div>
+
+          <!-- Right -->
+
+          <div class="relative">
+            <div class="relative rounded-[50px] overflow-hidden shadow-soft">
+              <div class="shimmer"></div>
+
+              <img
+                src="./sathvik bday.jpg"
+                class="hero-image w-full"
+                alt="Birthday"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invitation Starts Here -->
+
+    <section id="invitation" class="py-24">
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- Continue in Part 2 -->
+        <!-- Section Heading -->
+
+        <div class="text-center">
+          <p class="uppercase tracking-[6px] text-sm gold">
+            Birthday Invitation
+          </p>
+
+          <h2 class="title text-5xl md:text-6xl text-[#54463d] mt-3">
+            You're Invited
+          </h2>
+
+          <div class="w-24 h-1 bg-[#d8b48b] rounded-full mx-auto mt-6"></div>
+        </div>
+
+        <!-- Invitation Card -->
+
+        <div
+          class="glass rounded-[40px] p-10 mt-14 shadow-soft border border-white/60"
+        >
+          <div class="max-w-3xl mx-auto text-center">
+            <p class="text-2xl title gold mb-8">
+              Our Little Prince is Turning Five
+            </p>
+
+            <p class="leading-9 text-gray-600 text-lg">
+              We cordially invite you and your family to celebrate the
+              <strong>5th Birthday</strong> of our beloved son
+            </p>
+
+            <h3 class="title text-6xl mt-8 text-[#6d5745]">SATHVIK</h3>
+
+            <div class="w-20 h-px bg-[#d6b18b] mx-auto my-8"></div>
+
+            <p class="text-gray-600 leading-9 text-lg">
+              Join us for an evening filled with love, laughter, cake and
+              delicious dinner as he celebrates this beautiful milestone.
+            </p>
+
+            <p class="mt-8 text-lg text-[#8b6d4c] font-medium">
+              Your presence and blessings will make his special day even more
+              memorable.
+            </p>
+          </div>
+        </div>
+
+        <!-- Countdown -->
+
+        <div class="mt-24">
+          <div class="text-center">
+            <h2 class="title text-5xl text-[#54463d]">Countdown</h2>
+
+            <p class="text-gray-500 mt-3">Until the celebration begins</p>
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-12">
+            <div class="glass rounded-3xl p-8 text-center shadow-soft">
+              <h3 id="days" class="text-5xl font-bold gold">00</h3>
+
+              <p class="mt-3 uppercase tracking-widest text-sm">Days</p>
+            </div>
+
+            <div class="glass rounded-3xl p-8 text-center shadow-soft">
+              <h3 id="hours" class="text-5xl font-bold gold">00</h3>
+
+              <p class="mt-3 uppercase tracking-widest text-sm">Hours</p>
+            </div>
+
+            <div class="glass rounded-3xl p-8 text-center shadow-soft">
+              <h3 id="minutes" class="text-5xl font-bold gold">00</h3>
+
+              <p class="mt-3 uppercase tracking-widest text-sm">Minutes</p>
+            </div>
+
+            <div class="glass rounded-3xl p-8 text-center shadow-soft">
+              <h3 id="seconds" class="text-5xl font-bold gold">00</h3>
+
+              <p class="mt-3 uppercase tracking-widest text-sm">Seconds</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event Details -->
+
+        <div class="mt-24">
+          <div class="text-center">
+            <h2 class="title text-5xl text-[#54463d]">Celebration Details</h2>
+
+            <div class="w-24 h-1 bg-[#d8b48b] rounded-full mx-auto mt-5"></div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8 mt-14">
+            <!-- Date -->
+
+            <div class="glass rounded-3xl p-8 shadow-soft">
+              <div class="flex items-start gap-5">
+                <div class="bg-[#ead8c4] p-4 rounded-2xl">
+                  <!-- Calendar Icon -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 h-7 text-[#b68b57]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0
+                            00-2-2H5a2 2 0 00-2 2v12a2
+                            2 0 002 2z"
+                    />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 class="font-semibold text-xl">Date</h3>
+
+                  <p class="text-gray-600 mt-2">Monday</p>
+
+                  <p class="gold font-semibold">29 June 2026</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Time -->
+
+            <div class="glass rounded-3xl p-8 shadow-soft">
+              <div class="flex items-start gap-5">
+                <div class="bg-[#ead8c4] p-4 rounded-2xl">
+                  <!-- Clock -->
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 h-7 text-[#b68b57]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v5l3 3m6-3a9 9 0
+                            11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 class="font-semibold text-xl">Time</h3>
+
+                  <p class="gold mt-2 font-semibold">7:30 PM onwards</p>
+
+                  <p class="text-gray-500">Cake Cutting & Dinner</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Venue -->
+
+            <div class="glass rounded-3xl p-8 shadow-soft">
+              <div class="flex items-start gap-5">
+                <div class="bg-[#ead8c4] p-4 rounded-2xl">
+                  <!-- Location -->
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 h-7 text-[#b68b57]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414
+                            20.9a2 2 0
+                            01-2.827 0l-4.244-4.243a8
+                            8 0
+                            1111.314 0z"
+                    />
+
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0
+                            11-6 0 3 3 0
+                            016 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 class="font-semibold text-xl">Venue</h3>
+
+                  <p class="gold mt-2">Hotel The White Lotus</p>
+
+                  <p class="text-gray-500">Udupi</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dinner -->
+
+            <div class="glass rounded-3xl p-8 shadow-soft">
+              <div class="flex items-start gap-5">
+                <div class="bg-[#ead8c4] p-4 rounded-2xl">
+                  <!-- Gift Icon -->
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 h-7 text-[#b68b57]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 12v8H4v-8m16
+                            0H4m16 0V8a2 2 0
+                            00-2-2h-3m-8
+                            6V8a2 2 0
+                            012-2h3m0
+                            0a2 2 0
+                            104 0m-4
+                            0a2 2 0
+                            11-4 0"
+                    />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 class="font-semibold text-xl">Celebration</h3>
+
+                  <p class="gold mt-2">Cake • Dinner</p>
+
+                  <p class="text-gray-500">Family & Friends</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="mt-28">
+      <div class="text-center">
+        <p class="uppercase tracking-[6px] text-sm gold">Memories</p>
+
+        <h2 class="title text-5xl text-[#54463d] mt-3">Our Little Prince</h2>
+
+        <div class="w-24 h-1 bg-[#d8b48b] rounded-full mx-auto mt-5"></div>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-14">
+        <div class="rounded-3xl overflow-hidden shadow-soft">
+          <img
+            src="images/hero.png"
+            class="h-64 w-full object-cover hover:scale-110 duration-500"
+          />
+        </div>
+
+        <div class="rounded-3xl overflow-hidden shadow-soft">
+          <img
+            src="images/hero.png"
+            class="h-64 w-full object-cover hover:scale-110 duration-500"
+          />
+        </div>
+
+        <div class="rounded-3xl overflow-hidden shadow-soft">
+          <img
+            src="images/hero.png"
+            class="h-64 w-full object-cover hover:scale-110 duration-500"
+          />
+        </div>
+
+        <div class="rounded-3xl overflow-hidden shadow-soft">
+          <img
+            src="images/hero.png"
+            class="h-64 w-full object-cover hover:scale-110 duration-500"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VENUE ================= -->
+
+    <section id="venue" class="mt-32">
+      <div class="text-center">
+        <p class="uppercase tracking-[6px] text-sm gold">Venue</p>
+
+        <h2 class="title text-5xl text-[#54463d] mt-3">See You Here</h2>
+      </div>
+
+      <div class="glass rounded-[40px] mt-14 overflow-hidden shadow-soft">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.6492504481894!2d74.74876929256445!3d13.344094628095979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbba749b00743%3A0x4199afff8ebc7ad4!2sWhite%20Lotus%20Hotel!5e0!3m2!1sen!2sin!4v1782664650127!5m2!1sen!2sin"
+          class="w-full h-[420px]"
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-8">
+        <a
+          href="https://maps.google.com/?q=White Lotus Hotel Udupi"
+          target="_blank"
+          class="bg-[#d5aa7b] text-white rounded-2xl py-5 text-center font-medium hover:bg-[#b88957] duration-300"
+        >
+          Open in Google Maps
+        </a>
+
+        <button
+          onclick="copyAddress()"
+          class="border-2 border-[#d5aa7b] text-[#b88957] rounded-2xl py-5 hover:bg-[#d5aa7b] hover:text-white duration-300"
+        >
+          Copy Venue Address
+        </button>
+      </div>
+    </section>
+
+    <!-- ================= RSVP ================= -->
+
+    <section class="mt-32">
+      <div class="glass rounded-[40px] p-10 shadow-soft text-center">
+        <p class="uppercase tracking-[5px] gold">RSVP</p>
+
+        <h2 class="title text-5xl text-[#54463d] mt-3">
+          We Can't Wait To Celebrate With You
+        </h2>
+
+        <p class="mt-8 text-gray-600 max-w-2xl mx-auto leading-8">
+          Your presence and blessings are the greatest gift for our little
+          prince. Kindly confirm your presence.
+        </p>
+
+        <div class="flex flex-col md:flex-row justify-center gap-5 mt-10">
+          <a
+            href="https://wa.me/919999999999"
+            target="_blank"
+            class="bg-[#d5aa7b] text-white px-8 py-4 rounded-full hover:scale-105 duration-300"
+          >
+            RSVP on WhatsApp
+          </a>
+
+          <button
+            onclick="addCalendar()"
+            class="border border-[#d5aa7b] px-8 py-4 rounded-full text-[#b88957] hover:bg-[#d5aa7b] hover:text-white duration-300"
+          >
+            Add To Calendar
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="mt-32 pb-16">
+      <div class="text-center">
+        <h2 class="title text-6xl gold">SATHVIK</h2>
+        <p class="text-gray-500 mt-5">Turning 5 • 29 June 2026</p>
+        <div class="w-32 h-px bg-[#d5aa7b] mx-auto my-8"></div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
